@@ -1,7 +1,7 @@
 /*-----------------Style på sektionerne----------------------------------------------------------------------------*/
 
 #section2{
-    height: 700px;
+    height: 825px;
     background: #f1f1f1;
     display: inline-block;
     width: 100%;
@@ -23,13 +23,13 @@
 
 /*-------------------Start på styling af header menuen--------------------------------------------------------------------------*/
 
-.header {
+header {
     overflow: hidden;
-    background-color: #f1f1f1;
+    background-color: white;
     padding: 20px 10px;
   }
   
-  .header a {
+  header a {
     float: left;
     color: black;
     text-align: center;
@@ -40,19 +40,19 @@
     border-radius: 4px;
   }
   
-  .header a.logo {
+  header a.logo {
     font-size: 25px;
     font-weight: bold;
     background-image: url(/billeder/logo.jpeg) no-repeat top left;
 }
   
-  .header a:hover {
+  header a:hover {
     background-color: #ddd;
-    color: black;
+    color: rgb(198, 114, 114);
   }
   
-  .header a.active {
-    background-color: dodgerblue;
+  header a.active {
+    background-color: #39bafb;
     color: white;
   }
   
@@ -81,9 +81,10 @@
     height: 100%;
     margin: 0;
     padding: 0;
-    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-family: 'Roboto', sans-serif;
     background: #FFFFFF;
     scroll-behavior: smooth;
+    letter-spacing: 1.5px;
 
     
 }
@@ -93,11 +94,13 @@
 
 
 .main-image {
+    margin-top:10px;
     position: relative;
     background: url(/billeder/carheaven2.png) no-repeat center;
     background-size: cover;
     height: 500px;
     overflow: hidden;
+    width:100%;
     
 }
 
@@ -126,9 +129,10 @@
 .button {
     color: #FFFFFF;
     padding: 10px 50px;
-    background: #1e90ff;
+    background: #39bafb;
     text-decoration: none;
     border-radius: 10px;
+    letter-spacing: 2px;
     transition: .6s;
     position: relative;
     top: 85px;
@@ -145,6 +149,7 @@
     background: #fff;
     text-decoration: none;
     border-radius: 10px;
+    letter-spacing: 2px;
     transition: .6s;
     position: relative;
     top: 85px;
@@ -188,6 +193,7 @@
 	margin-top: 10px;
 	font-size: 18px;
 	line-height: 1.5;
+    letter-spacing: 1.5%;
 }
 
 .content-section .content .button{
@@ -198,9 +204,9 @@
 	background-color: #3d3d3d;
 	padding:12px 40px;
 	text-decoration: none;
+    letter-spacing: 1.5px;
 	color:#000;
 	font-size: 25px;
-	letter-spacing: 1.5px;
 }
 
 .content-section .social i:hover{
@@ -337,6 +343,7 @@
   h6 {
     margin: 0;
     padding: 0;
+    letter-spacing: 1.5px;
   }
   
   p {
@@ -401,7 +408,7 @@
     h4.sub-title {
       font-size: 16px;
       margin: 0;
-      color: #4cb1ff;
+      color: #39bafb;
       font-weight: normal;
     }
   
@@ -422,7 +429,7 @@
   
     .cont-details span.fa {
       font-size: 22px;
-      color: #4cb1ff;
+      color: #39bafb;
       display: block;
       margin-top: 3px;
     }
@@ -503,8 +510,8 @@
       margin: 20px auto 0;
       margin-bottom: 50px;
       color: #fff;
-      background: #4cb1ff;
-      border-color: #4cb1ff;
+      background: #39bafb;
+      border-color: #39bafb;
       display: inline-block;
       font-weight: 400;
       text-align: center;
@@ -588,7 +595,7 @@ ul{
 	position: absolute;
 	left:0;
 	bottom: -10px;
-	background-color: #1e90ff;
+	background-color: #39bafb;
 	height: 2px;
 	box-sizing: border-box;
 	width: 50px;
@@ -602,7 +609,7 @@ ul{
 	color: #000;
 	text-decoration: none;
 	font-weight: 300;
-	color: #bbbbbb;
+	color: #000;
 	display: block;
 	transition: all 0.3s ease;
 }
@@ -722,10 +729,10 @@ ul{
     font-size: 15px;
   }
   .features li .icon.check{
-    color: #1e90ff;
+    color: #39bafb;
   }
   .features li .icon.cross{
-    color: #1e90ff;
+    color: #39bafb;
   }
   .table .btn{
     width: 100%;
@@ -749,53 +756,53 @@ ul{
     border-radius: 5px;
   }
   .basic .features li::selection{
-    background: #1e90ff;
+    background: #39bafb;
   }
   .basic ::selection,
   .basic .price-area,
   .basic .inner-area{
-    background: #1e90ff;
+    background: #39bafb;
   }
   .basic .btn button{
-    border: 2px solid #1e90ff;
+    border: 2px solid #39bafb;
     background: #fff;
-    color: #1e90ff;
+    color: #39bafb;
   }
   .basic .btn button:hover{
-    background: #1e90ff;
+    background: #39bafb;
     color: #fff;
   }
   .premium ::selection,
   .premium .price-area,
   .premium .inner-area,
   .premium .btn button{
-    background: #1e90ff;
+    background: #39bafb;
   }
   .premium .btn button:hover{
-    background: #1e90ff;
+    background: #39bafb;
   }
   .ultimate ::selection,
   .ultimate .price-area,
   .ultimate .inner-area{
-    background: #1e90ff;
+    background: #39bafb;
   }
   .ultimate .btn button{
-    border: 2px solid #1e90ff;
-    color: #1e90ff;
+    border: 2px solid #39bafb;
+    color: #39bafb;
     background: #fff;
   }
   .ultimate .btn button:hover{
-    background: #1e90ff;
+    background: #39bafb;
     color: #fff;
   }
   .basic .package-name{
-    background: #1e90ff;
+    background: #39bafb;
   }
   .premium .package-name{
-    background: #1e90ff;
+    background: #39bafb;
   }
   .ultimate .package-name{
-    background: #1e90ff;
+    background: #39bafb;
   }
   .basic .package-name::before{
     content: "Basic";
@@ -824,9 +831,6 @@ ul{
   }
     /*-----------------------------Slut med at lave pristabel responsiv----------------------------------------------------------------*/
 
-  ::selection{
-    color: #fff;
-  }
   .table .ribbon{
     width: 150px;
     height: 150px;
@@ -841,7 +845,7 @@ ul{
     content: "";
     z-index: -1;
     display: block;
-    border: 7px solid #1e90ff;
+    border: 7px solid #39bafb;
     border-top-color: transparent;
     border-left-color: transparent;
   }
@@ -859,7 +863,7 @@ ul{
     right: 0;
     transform: rotate(-45deg);
     width: 200px;
-    background: #1e90ff;
+    background: #39bafb;
     padding: 10px 0;
     color: #fff;
     text-align: center;
